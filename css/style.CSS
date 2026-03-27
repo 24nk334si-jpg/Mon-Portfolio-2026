@@ -163,5 +163,68 @@
     .apropos p {
         margin-bottom: 2rem;
         color: var(--gris-fonce);
-        font-size: 1.3rem;
+        font-size: 1.2rem;
+    }
+
+    .compétances  table {
+        width: 80%;
+        margin: 0 auto;
+        border-collapse: collapse;
+        background-color: #FFF;
+        box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    .compétances table th, .compétances table td {
+        padding: 15px;
+    }
+    .compétances table thead {
+        background-color: var(--Violet-doux);
+        color: #FFF;
+        text-transform: uppercase;
+    }
+
+    .compétances table tbody td {
+        border-bottom: 1px solid var(--gris-clair);
+    }
+
+    .compétances table tbody tr:nth-child(even) {
+        background-color: #FDFDFD;
+    }
+
+    .compétances table tbody tr {
+        transition: background-color 0.3 ease;
+    }
+
+    .compétances table tbody tr:hover {
+        background-color: #f0f0f0;
+    }
+
+    .compétances table thead th {
+        text-align: left;
+    }
+
+    footer {
+        margin-top: 3rem;
+        background-color: var(--Violet-doux);
+        padding: 3rem 0;
+        text-align: center;
+    }
+
+    footer p {
+        color: white;
+        margin-bottom: 1.2rem;
+    }
+
+    footer a {
+        display: inline-block;
+        font-size: 1.6rem;
+        color: white;
+        margin: 0 10px;
+        transition: color 0.3s ease, transform 0.2s ease;
+    }
+
+    footer a:hover {
+        color: var(--orange-Vif);
+        transform: translate(-3px);
     }
