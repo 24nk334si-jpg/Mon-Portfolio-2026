@@ -1,32 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>MON PORTFOLIO</title>
+    <title>MON PORTFOLIO - Divertissement</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 <body>
     <header>
         <div>
-            <a href="">Mon Portfolio</a>
+            <a href="index.html">Mon Portfolio</a>
         </div>
         <nav>
             <ul>
                 <li><a href="index.html">Accueil</a></li>
                 <li><a href="projets.html">Projets</a></li>
-                <li><a href="passion.html">passions</a></li>
-                <li><a href="Divertissement.html" class="active">Divertissement</a></li>
+                <li><a href="passion.html">Passions</a></li>
+                <li><a href="divertissement.html" class="active">Divertissement</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </header>
     <main>
-        <h1> mes Divertissement</h1>
+        <section class="divert-section">
+            <h2 class="main-title">Espace Divertissement <span class="emoji">🎮</span></h2>
+         
+            <p class="divert-intro">Un aperçu de mes sources d'inspiration, de détente et de création hors projets majeurs.</p>
+
+            <div class="divert-grid">
+                
+                <article class="divert-card">
+                    <div class="divert-img-container">
+                        <img src="image/gaming.jpeg" alt="Gaming session">
+                        <span class="divert-category">Gaming</span>
+                    </div>
+                    <div class="divert-content">
+                        <h3>Univers Immersifs</h3>
+                        <p>Explorer des mondes, analyser le gameplay et m'inspirer du game design pour mes interfaces.</p>
+                        <div class="tags">
+                            <span>RPG</span>
+                            <span>Stratégie</span>
+                            <span>Fun</span>
+                        </div>
+                        <a href="#" class="divert-btn">Explorer <i class="fas fa-arrow-right"></i></a>
+                    </div>
+                </article>
+
+                <article class="divert-card">
+                    <div class="divert-img-container">
+                        <img src="image/music.jpeg" alt="Listening to music">
+                        <span class="divert-category">Musique</span>
+                    </div>
+                    <div class="divert-content">
+                        <h3>Playlists Focus</h3>
+                        <p>Ma bande-son pour coder : du Lo-Fi au Metal, chaque genre a son utilité pour la productivité.</p>
+                        <div class="tags">
+                            <span>Chill</span>
+                            <span>Metal</span>
+                            <span>Lo-Fi</span>
+                        </div>
+                        <a href="#" class="divert-btn">Écouter <i class="fas fa-headphones"></i></a>
+                    </div>
+                </article>
+
+                <article class="divert-card">
+                    <div class="divert-img-container">
+                        <img src="image/ai.jpeg" alt="AI exploration">
+                        <span class="divert-category">IA & Tech</span>
+                    </div>
+                    <div class="divert-content">
+                        <h3>Labo d'Exploration IA</h3>
+                        <p>Tester des prompts, générer des images, comprendre les LLM : une veille technologique active et ludique.</p>
+                        <div class="tags">
+                            <span>Prompting</span>
+                            <span>Midjourney</span>
+                            <span>LLM</span>
+                        </div>
+                        <a href="#" class="divert-btn">Tester <i class="fas fa-flask"></i></a>
+                    </div>
+                </article>
+
+                <article class="divert-card">
+                    <div class="divert-img-container">
+                        <img src="image/inspire.jpeg" alt="Watching inspiring content">
+                        <span class="divert-category">Contenu</span>
+                    </div>
+                    <div class="divert-content">
+                        <h3>Veille Inspirante</h3>
+                        <p>Conférences Tech, tutoriels avancés et analyses design : apprendre en continu en me divertissant.</p>
+                        <div class="tags">
+                            <span>YouTube</span>
+                            <span>Twitch</span>
+                            <span>Conf</span>
+                        </div>
+                        <a href="#" class="divert-btn">Regarder <i class="fas fa-play"></i></a>
+                    </div>
+                </article>
+
+                <article class="divert-card">
+                    <div class="divert-img-container">
+                        <img src="image/discution.jpeg" alt="Discussion session">
+                        <span class="divert-category">Social</span>
+                    </div>
+                    <div class="divert-content">
+                        <h3>Communautés & Échanges</h3>
+                        <p>Partager des idées, aider sur des forums et débattre des tendances sur Discord ou Reddit.</p>
+                        <div class="tags">
+                            <span>Discord</span>
+                            <span>Reddit</span>
+                            <span>Partage</span>
+                        </div>
+                        <a href="#" class="divert-btn">Discuter <i class="fas fa-comments"></i></a>
+                    </div>
+                </article>
+
+                <article class="divert-card">
+                    <div class="divert-img-container">
+                        <img src="image/idee.jpeg" alt="Idea creation">
+                        <span class="divert-category">Idées</span>
+                    </div>
+                    <div class="divert-content">
+                        <h3>Couveuse d'Idées</h3>
+                        <p>Carnet de croquis et notes Notion : où je note mes concepts de projets "just for fun".</p>
+                        <div class="tags">
+                            <span>Concepts</span>
+                            <span>UI Sketch</span>
+                            <span>Prototyping</span>
+                        </div>
+                        <a href="#" class="divert-btn">Découvrir <i class="fas fa-lightbulb"></i></a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
     </main>
     <footer>
-        <p>&copy;2026 Charlie. tous droits reservés</p>
+        <p>&copy;2026 Charlie. tous droits réservés</p>
         <div>
             <a href=""><i class="fa-brands fa-linkedin"></i></a>
             <a href=""><i class="fa-brands fa-github"></i></a>
